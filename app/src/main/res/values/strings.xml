@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lapso2</string>
+
+    <string name="laps_card">Lapseki Çardak</string>
+    <string name="degis">Değiştir</string>
+    <string name="kalk">Kalkış</string>
+    <string name="var">Varış</string>
+    <string name="ara">Ara</string>
+
+</resources>
