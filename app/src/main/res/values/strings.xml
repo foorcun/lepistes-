@@ -6,5 +6,8 @@
     <string name="kalk">Kalkış</string>
     <string name="var">Varış</string>
     <string name="ara">Ara</string>
+    <string name="HaftaIc">Hafta İçi</string>
+    <string name="cumartesi">Cumartesi</string>
+    <string name="pazar">Pazar</string>
 
 </resources>

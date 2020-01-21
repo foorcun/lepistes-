@@ -79,17 +79,17 @@
 
 
     <LinearLayout
+        android:id="@+id/lino1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_below="@id/buttonGrup"
         android:baselineAligned="false"
-        >
+        android:orientation="horizontal">
 
         <RelativeLayout
-            android:layout_weight=".5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight=".5"
             android:background="@android:color/holo_blue_bright">
 
             <TextView
@@ -106,9 +106,9 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:layout_weight=".5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight=".5"
             android:background="@android:color/holo_orange_light">
 
             <TextView
@@ -126,5 +126,68 @@
 
 
     </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lino2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lino1"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/HaftaIc" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cumartesi" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pazar" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lino2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="07:30" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:00" />
+        </LinearLayout>
+    </ScrollView>
+
 
 </RelativeLayout>
